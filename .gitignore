@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Base de datos local
+*.sqlite3
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
