@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Nosotros - Parfums D' Parfums{% endblock %}
+
+{% block content %}
+    <h2>Quiénes somos</h2>
+    <p>Somos una perfumería fundada en {{ anio_fundacion }}, con base en Calbuco, Chile.</p>
+
+    <h3>Nuestros valores</h3>
+    <ul>
+        {% for valor in valores %}
+            <li>{{ valor }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
