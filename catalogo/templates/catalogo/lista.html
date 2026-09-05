@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ titulo }} - Parfums D' Parfums{% endblock %}
+
+{% block content %}
+    <h2>{{ titulo }}</h2>
+    
+    {% if hay_ofertas %}
+        <p style="color: green;"><strong>¡Aprovecha nuestros perfumes destacados y promociones de la semana!</strong></p>
+    {% endif %}
+
+    <h3>Nuestras Fragancias</h3>
+    <ul>
+    {% for perfume in perfumes %}
+        <li>
+            <strong>{{ perfume.nombre }}</strong> - Categoría: {{ perfume.categoria }} - ${{ perfume.precio }}
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
