@@ -12,3 +12,8 @@ Apps y rutas
 catalogo -> / (lista perfumes
 nosotros -> /nosotros/ (historia_y_guia)
 contacto -> /contacto/ (informacion_contacto)
+
+
+REFLEXIÓN
+Lo que más nos costó fué no pisar el código de los demás, ya que no usabamos muy bien los push y merge.
+Usamos la ia para que nos explicara los errores paso a paso y nos guiara con el git
